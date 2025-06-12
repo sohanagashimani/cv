@@ -1,5 +1,5 @@
 {
-  "name": "91--7483140387-belgaum--karnataka-sohanagashim",
+  "name": "sohan's cv",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.9.2"
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.9.2",
+    "tailwindcss": "^3.4.17"
   }
 }
