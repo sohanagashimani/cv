@@ -14,14 +14,14 @@ import '../styles/global.css';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body class="bg-gray-100 text-gray-900 font-sans font-normal md:mx-0 mx-4">
-    <div class="max-w-3xl mx-auto p-4 sm:p-8 border border-gray-200 shadow-lg mt-4 mb-8 rounded-lg bg-white font-sans" style="font-family: 'Inter', sans-serif;">
+    <div class="max-w-4xl mx-auto p-4 sm:p-8 border border-gray-200 shadow-lg mt-4 mb-8 rounded-lg bg-white font-sans" style="font-family: 'Inter', sans-serif;">
       <!-- Header & Contact -->
       <div class="flex flex-col md:flex-row md:items-center md:justify-between border-b pb-6 mb-8 gap-4 md:gap-0">
         <!-- Contact Info -->
         <div class="flex-1 text-xs sm:text-sm text-gray-700 text-center md:text-left md:pr-6 md:border-r md:border-gray-200 mb-2 md:mb-0">
           <div>(+91) 7483140387</div>
-          <div>Belgaum, Karnataka</div>
-          <div>sohanagashimani@gmail.com</div>
+          <div>Bengaluru, Karnataka</div>
+          <div>sohanagashimanii@gmail.com</div>
         </div>
         <!-- Name & Title -->
         <div class="flex-1 text-center md:px-6 mb-2 md:mb-0">
@@ -36,13 +36,16 @@ import '../styles/global.css';
           <div>
             LinkedIn: <a href="https://linkedin.com/in/sohan-a-1161601b4" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline whitespace-nowrap">linkedin.com/in/sohan-a-1161601b4</a>
           </div>
+          <div>
+            Twitter: <a href="https://x.com/sohanTwt" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline whitespace-nowrap">x.com/sohanTwt</a>
+          </div>
         </div>
       </div>
 
       <!-- Summary -->
       <section class="mb-6">
         <div class="font-medium text-gray-800 mb-1 text-sm sm:text-base leading-relaxed">
-          Detail-oriented Full-Stack Developer with a strong frontend focus, specializing in React and TypeScript. Experienced in building <span class="font-semibold text-gray-900">scalable, user-centric web applications and integrating AI, cloud-native services, and CI/CD pipelines</span>. Proven ability to thrive in fast-paced, agile environments while delivering high-performance, production-grade software for real-world problems.
+          Full-stack developer skilled in building scalable web apps and cloud-native services, with a strong focus on the JavaScript ecosystem. Actively seeking frontend and full-stack roles where I can deliver high-performance, production-grade software in fast-paced, agile environments.
         </div>
       </section>
 
@@ -50,34 +53,55 @@ import '../styles/global.css';
       <section class="mb-6">
         <h2 class="text-base sm:text-lg font-bold text-gray-800 border-b pb-1 mb-2 tracking-wide uppercase">Experience</h2>
         <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
-          <div class="font-semibold text-sm sm:text-base">SDE at Digital INNK, Remote (UK based)</div>
+          <div class="font-semibold text-sm sm:text-base">Software Engineer at Digital INNK (UK-based, Remote)</div>
           <div class="text-xs sm:text-sm text-gray-600">Sep 2022 - Present</div>
         </div>
         <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1 text-xs sm:text-sm pl-4">
-          <li>Built and optimized React-based UI screens, enhancing user experience with efficient state management and responsive design.</li>
-          <li>Designed and implemented a production-scale WhatsApp integration system for customer-driver messaging, leveraging GCP, Firestore Triggers, Cloud Tasks, and queue-based processing.</li>
-          <li>Developed scalable infrastructure for webhook delivery, ensuring secure and reliable event-driven communication for subscribed customers.</li>
-          <li>Designed and managed Cloud Run services on GCP, implementing authentication and secure API exposure through API Gateway.</li>
-          <li>Worked on large-scale data imports, optimizing processing by reading and validating multiple files simultaneously.</li>
-          <li>Gained experience in writing GitHub Actions YAML workflows, automating CI/CD processes for efficient deployment and testing.</li>
-          <li>Actively contributed to PR reviews, ensuring high code quality, best practices, and knowledge sharing within the team.</li>
-          <li>Provided key insights in solution discussions, influencing architectural decisions.</li>
-          <li>Worked in an <span class="font-semibold">AGILE environment</span>, gaining experience in story designing, sprint planning, and iterative development.</li>
+          <li>Optimized search architecture for high-traffic control panels used by lease companies and garages, handling <span class="font-bold">10k+ queries/day</span> by indexing metadata in <span class="font-bold">Typesense</span> and hydrating full records from <span class="font-bold">Firestore</span> via snapshots. Applied fine-grained <span class="font-bold">React memoization</span> to cut UI lag by <span class="font-bold">30%</span> and improve perceived search speed by <span class="font-bold">50%</span>.</li>
+          <li>Built a <span class="font-bold">driver compliance system</span> to automate licence verification for <span class="font-bold">80,000+ drivers</span>, featuring <span class="font-bold">automated check queues</span> and a <span class="font-bold">dashboard with complex filters</span> and a <span class="font-bold">driver details page</span> for <span class="font-bold">historical audits</span> and <span class="font-bold">penalty point visualisation</span>, reducing manual effort by <span class="font-bold">40%</span>.</li>
+          <li>Integrated the <span class="font-bold">WhatsApp Business API</span> to enable full <span class="font-bold">two-way messaging</span> between lease companies and drivers, handling over <span class="font-bold">50,000 messages/month</span> via webhook-driven delivery and real-time updates. Built an in-app <span class="font-bold">chat drawer</span> allowing support teams to view conversations, reply instantly, and reduce phone calls by over <span class="font-bold">60%</span>.</li>
+          <li>Designed a configurable <span class="font-bold">webhook framework</span> powering over <span class="font-bold">0.5M+ vehicle status events/month</span>, enabling lease companies to receive real-time updates through <span class="font-bold">topic-based subscriptions</span> and maintain <span class="font-bold">detailed audit logs</span> for 100% traceability across external integrations.</li>
+          <li>Built scalable <span class="font-bold">CSV import pipelines</span> to handle <span class="font-bold">70,000+ record datasets</span> with streaming jobs, schema validation, cross-file checks, and fault-tolerant processing using a TypeScript-based backend.</li>
+          <li>Contributed to <span class="font-bold">code reviews</span> and team-wide <span class="font-bold">engineering practices</span>; served as <span class="font-bold">Release Coordinator</span> for <span class="font-bold">5+</span> major releases, ensuring reliable rollouts and cross-functional alignment.</li>
         </ul>
       </section>
 
       <!-- Projects -->
       <section class="mb-6">
         <h2 class="text-base sm:text-lg font-bold text-gray-800 border-b pb-1 mb-2 tracking-wide uppercase">Projects</h2>
-        <div class="mb-2">
-          <span class="font-semibold">KeepAI</span> (<a href="https://keepai.vercel.app" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">keepai.vercel.app</a>)<br />
-          <span class="text-xs sm:text-sm text-gray-700">Build a note-taking app with CRUD, task tracking, search, and note restoration features. Implemented secure data management using Supabase with Row Level Security (RLS) for notes and AI usage tracking, along with Supabase Auth for user authentication and protected routes. Integrated Google Cloud Vertex AI to enable natural language commands for note operations, supporting complex workflows in a single command.</span><br />
-          <span class="text-xs text-gray-500">Tech Stack: Next.js, Redux, Supabase, Tailwind CSS, Google Cloud Vertex AI</span>
+        <div class="mb-4">
+          <div class="font-semibold text-sm sm:text-base mb-1">Repeatly</div>
+          <div class="text-xs sm:text-sm text-gray-600 mb-2">
+            <a href="https://repeatly.web.app" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">repeatly.web.app</a> | 
+            <a href="https://github.com/sohanagashimani/repeatly" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">GitHub</a>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 text-xs sm:text-sm pl-4">
+            <li>Developed a self-hosted <span class="font-bold">Cron-as-a-Service</span> platform with full infrastructure control, supporting HTTP job scheduling via cron expressions.</li>
+            <li>Designed <span class="font-bold">partitioned PostgreSQL tables</span> for hourly job scalability and atomic claiming; built a <span class="font-bold">partition-aware scheduler</span> and distributed workers on <span class="font-bold">GCP (Cloud Run)</span>.</li>
+            <li>Built a full-stack system with <span class="font-bold">Express.js</span>, <span class="font-bold">BullMQ</span>, <span class="font-bold">Redis</span>, <span class="font-bold">Prisma</span>, and a <span class="font-bold">React + Ant Design</span> dashboard.</li>
+          </ul>
         </div>
-        <div>
-          <span class="font-semibold">Leave Management System</span><br />
-          <span class="text-xs sm:text-sm text-gray-700">A full-stack MERN app for staff leave management at Jain College of Engineering. Designed, developed, tested, and debugged from foundation to production. Hosted on the college network and used by staff.</span><br />
-          <span class="text-xs text-gray-500">Tech Stack: React.js, Node.js, Express.js, MongoDB, Mongoose, Bootstrap</span>
+        <div class="mb-4">
+          <div class="font-semibold text-sm sm:text-base mb-1">Playlist Converter (Spotify → YouTube Music)</div>
+          <div class="text-xs sm:text-sm text-gray-600 mb-2">
+            <a href="https://tune-swap.web.app" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">tune-swap.web.app</a> | 
+            <a href="https://github.com/sohanagashimani/playlist-converter" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">GitHub</a>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 text-xs sm:text-sm pl-4">
+            <li>Built a full-stack app to convert Spotify playlists to YouTube Music <span class="font-bold">without requiring user logins</span>.</li>
+            <li>Developed a responsive frontend in <span class="font-bold">React</span> with <span class="font-bold">real-time sync</span> via Firebase; implemented backend microservices using <span class="font-bold">Express</span> and <span class="font-bold">Flask</span> with background job support.</li>
+          </ul>
+        </div>
+        <div class="mb-4">
+          <div class="font-semibold text-sm sm:text-base mb-1">KeepAI</div>
+          <div class="text-xs sm:text-sm text-gray-600 mb-2">
+            <a href="https://keepai.vercel.app" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">keepai.vercel.app</a> | 
+            <a href="https://github.com/sohanagashimani/keep-ai" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">GitHub</a>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 text-xs sm:text-sm pl-4">
+            <li>Built a smart <span class="font-bold">note-taking app</span> with <span class="font-bold">CRUD</span>, task tracking, note restoration, and full-text search. Implemented <span class="font-bold">secure data handling</span> with <span class="font-bold">Supabase Row Level Security (RLS)</span> and <span class="font-bold">Supabase Auth</span> for protected user routes and scoped access control.</li>
+            <li>Integrated <span class="font-bold">Vertex AI</span> to support <span class="font-bold">natural language commands</span> for managing notes, enabling AI-driven task workflows.</li>
+          </ul>
         </div>
       </section>
 
@@ -86,10 +110,9 @@ import '../styles/global.css';
         <!-- Skills -->
         <section>
           <h2 class="text-base sm:text-lg font-bold text-gray-800 border-b pb-1 mb-2 tracking-wide uppercase">Skills</h2>
-          <div class="mb-2 text-xs sm:text-sm"><span class="font-semibold">Frontend:</span> React.js, Next.js, Tailwind CSS, TypeScript, Socket.io</div>
-          <div class="mb-2 text-xs sm:text-sm"><span class="font-semibold">Backend & Infra:</span> Node.js, Express.js, Supabase, Firebase, MongoDB, Mongoose, GCP, PostgreSQL</div>
-          <div class="mb-2 text-xs sm:text-sm"><span class="font-semibold">CI/CD & Tools:</span> GitHub Actions, Git, Linux, Agile/Scrum</div>
-          <div class="text-xs sm:text-sm"><span class="font-semibold">Other:</span> OAuth2, Webhooks, Google Cloud Vertex AI</div>
+          <div class="mb-2 text-xs sm:text-sm"><span class="font-semibold">Frontend:</span> React.js, Next.js, TypeScript, JavaScript, TanStack Query, TanStack Router, Redux, Tailwind CSS, Antd</div>
+          <div class="mb-2 text-xs sm:text-sm"><span class="font-semibold">Backend & Infra:</span> Node.js, Express.js, Python (Flask), Supabase, Firebase, PostgreSQL, Prisma ORM, MongoDB, Redis, Algolia, Typesense, Google Cloud Platform (Cloud Run, Firestore, Cloud Tasks, Cloud Functions, Vertex AI, API Gateway, etc), Docker, Mailgun</div>
+          <div class="text-xs sm:text-sm"><span class="font-semibold">DevOps & Tools:</span> GitHub Actions, Agile/Scrum</div>
         </section>
         <!-- Education -->
         <section>
@@ -103,7 +126,7 @@ import '../styles/global.css';
             <span class="text-gray-500">Percentage: 88.5%</span> <span class="text-gray-500 ml-2">Jun 2017 - Mar 2019</span>
           </div>
           <div class="text-xs sm:text-sm">
-            <span class="font-semibold">SSLC</span>, St. Mary's High School Camp, Belgaum<br />
+            <span class="font-semibold">SSLC/ 10th</span>, St. Mary's High School Camp, Belgaum<br />
             <span class="text-gray-500">Percentage: 95.36%</span> <span class="text-gray-500 ml-2">May 2016 - Mar 2017</span>
           </div>
         </section>
